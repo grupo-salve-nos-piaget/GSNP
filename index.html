@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salve-nos Piaget – Cultura Digital, Educação e Epistemologia</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <symbol id="icon-digital" viewBox="0 0 24 24">
+    <rect x="3" y="4" width="12" height="10" rx="2"/>
+    <path d="M7 18h4m-2-4v4m9-10v9m-3-3h6m-3-3v6"/>
+    <circle cx="18" cy="5" r="2"/>
+    <path d="M15 5h-2"/>
+  </symbol>
+  <symbol id="icon-education" viewBox="0 0 24 24">
+    <path d="M12 6.5C9.5 4.7 6.5 4.4 3 5.5v13c3.5-1.1 6.5-.8 9 1 2.5-1.8 5.5-2.1 9-1v-13c-3.5-1.1-6.5-.8-9 1Z"/>
+    <path d="M12 6.5v13m-6-10c1.5-.3 2.8-.1 4 .5m8-.5c-1.5-.3-2.8-.1-4 .5M6 14c1.5-.3 2.8-.1 4 .5m8-.5c-1.5-.3-2.8-.1-4 .5"/>
+  </symbol>
+  <symbol id="icon-knowledge" viewBox="0 0 24 24">
+    <path d="M9 18h6m-5 3h4m-2-19a7 7 0 0 0-4 12.7c.8.6 1.3 1.3 1.5 2.3h5c.2-1 .7-1.7 1.5-2.3A7 7 0 0 0 12 2Z"/>
+    <path d="M12 6v2m-3 1 1.5 1m4.5-1-1.5 1"/>
+  </symbol>
+  <symbol id="icon-culture" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9"/>
+    <path d="M3 12h18M12 3a14 14 0 0 1 0 18m0-18a14 14 0 0 0 0 18M5.5 6.5h2m9 11h2"/>
+    <circle cx="8" cy="6.5" r="1"/>
+    <circle cx="16.5" cy="17.5" r="1"/>
+  </symbol>
+  <symbol id="icon-benefits" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9"/>
+    <path d="m8 12 2.6 2.6L16.5 9"/>
+  </symbol>
+  <symbol id="icon-teacher" viewBox="0 0 24 24">
+    <circle cx="9" cy="7" r="3"/>
+    <path d="M3.5 20v-1.5A5.5 5.5 0 0 1 9 13h1m1 7h10V8h-8m3 4h2m-2 3h2"/>
+    <path d="m14 4 2 2 4-4"/>
+  </symbol>
+  <symbol id="icon-research" viewBox="0 0 24 24">
+    <circle cx="10.5" cy="10.5" r="6.5"/>
+    <path d="m15.5 15.5 5 5M8 13v-2m2 2V8m2 5v-3"/>
+  </symbol>
+  <symbol id="icon-ethics" viewBox="0 0 24 24">
+    <path d="m12 3 8 3v5c0 5-3.4 8.3-8 10-4.6-1.7-8-5-8-10V6l8-3Z"/>
+    <path d="m8.5 11.5 2.3 2.3 4.8-4.8"/>
+  </symbol>
+  <symbol id="icon-change" viewBox="0 0 24 24">
+    <path d="M20 7v5h-5M4 17v-5h5"/>
+    <path d="M5.5 9A7 7 0 0 1 17 6l3 3M4 15l3 3a7 7 0 0 0 11.5-3"/>
+  </symbol>
+  <symbol id="icon-reflection" viewBox="0 0 24 24">
+    <path d="M9 18h6m-5 3h4m-2-19a7 7 0 0 0-4 12.7c.8.6 1.3 1.3 1.5 2.3h5c.2-1 .7-1.7 1.5-2.3A7 7 0 0 0 12 2Z"/>
+    <path d="M12 6v2m-3 1 1.5 1m4.5-1-1.5 1"/>
+  </symbol>
+  <symbol id="icon-guidance" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9"/>
+    <circle cx="12" cy="12" r="5"/>
+    <circle cx="12" cy="12" r="1"/>
+    <path d="m14 10 5-5"/>
+  </symbol>
+</svg>
+
+<!-- ══ HEADER ══ -->
+<header>
+  <img class="hero-art" src="Imagens/fundo-conhecimento.svg" alt="" aria-hidden="true" />
+  <div class="grupo-tag">Grupo</div>
+  <h1>Salve-nos <span class="title-accent">Piaget</span></h1>
+  <p class="subtitle">Cultura Digital · Educação · Epistemologia</p>
+</header>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <a href="#apresentacao">Início</a>
+  <a href="#do-que-fala">Do que fala?</a>
+  <a href="#o-que-fala">O que fala?</a>
+  <a href="#por-que-fala">Por que fala?</a>
+  <a href="#mensagem">Mensagem</a>
+  <a href="#exemplo">Exemplo Prático</a>
+  <a href="#finalizacao">Finalização</a>
+</nav>
+
+<!-- ══ MAIN ══ -->
+<main>
+
+  <!-- 0. Apresentação -->
+  <section class="section" id="apresentacao">
+    <div class="card apresentacao-card">
+      <video class="apresentacao-video" controls>
+        <source src="Videos/Entrada.mp4" type="video/mp4" />
+      </video>
+      <img src="Imagens/Apresentacão.jpg" alt="Slide da apresentação" class="apresentacao-img" onclick="abrirModal()" />
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal-overlay" onclick="fecharModal()">
+    <span class="modal-fechar">&times;</span>
+    <img src="Imagens/Apresentacão.jpg" alt="Apresentação ampliada" />
+  </div>
+
+  <!-- 1. Do que fala? -->
+  <section class="section" id="do-que-fala">
+    <div class="section-header">
+      <h2 class="section-title">Do que fala?</h2>
+    </div>
+    <div class="card">
+      <div class="topic-grid" style="margin-top:1.2rem">
+
+        <div class="topic-card">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-digital" /></svg></span>Cultura Digital</h3>
+          <p>A tecnologia está presente no nosso cotidiano, desde o uso do e-mail, celulares e redes sociais até a inteligência artificial.</p>
+        </div>
+
+        <div class="topic-card accent">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-education" /></svg></span>Educação</h3>
+          <p>As tecnologias mudaram a maneira de ensinar e aprender. Hoje, podemos estudar por vídeos, plataformas digitais, pesquisas na internet e inteligência artificial.</p>
+        </div>
+
+        <div class="topic-card green">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-knowledge" /></svg></span>Epistemologia</h3>
+          <p>É o estudo do conhecimento. Discute como adquirimos, produzimos e verificamos se uma informação é verdadeira e confiável.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. O que fala? -->
+  <section class="section" id="o-que-fala">
+    <div class="section-header">
+      <h2 class="section-title">O que fala?</h2>
+    </div>
+    <div class="card">
+      <div class="topic-grid" style="margin-top:1.2rem">
+
+        <div class="topic-card">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-culture" /></svg></span>Cibercultura</h3>
+          <p>São os hábitos, comportamentos e relacionamentos que surgiram com o mundo digital.</p>
+        </div>
+
+        <div class="topic-card green">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-benefits" /></svg></span>Benefícios</h3>
+          <p>A tecnologia facilita o acesso à informação, aumenta a autonomia, permite a colaboração e ajuda na inclusão.</p>
+        </div>
+
+        <div class="topic-card accent">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-teacher" /></svg></span>Papel do Professor</h3>
+          <p>O professor não é apenas alguém que transmite informações. Ele orienta os alunos, ensina a pensar e estimula o pensamento crítico.</p>
+        </div>
+
+        <div class="topic-card">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-research" /></svg></span>Pesquisa</h3>
+          <p>A internet facilita encontrar informações, consultar diferentes fontes e compartilhar conhecimentos.</p>
+        </div>
+
+        <div class="topic-card red">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-ethics" /></svg></span>Desafios e Ética</h3>
+          <p>Existem problemas como exclusão digital, notícias falsas e bolhas de informação. Por isso, precisamos utilizar a tecnologia com responsabilidade.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Por que fala? -->
+  <section class="section" id="por-que-fala">
+    <div class="section-header">
+      <h2 class="section-title">Por que fala?</h2>
+    </div>
+    <div class="card">
+      <div class="topic-grid" style="margin-top:1.2rem">
+
+        <div class="topic-card accent">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-change" /></svg></span>Entender Mudanças</h3>
+          <p>Compreender como a tecnologia está transformando a educação e a pesquisa.</p>
+        </div>
+
+        <div class="topic-card purple">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-reflection" /></svg></span>Refletir sobre o Saber</h3>
+          <p>Entender que nem tudo que encontramos na internet é verdadeiro. Precisamos analisar e verificar as informações.</p>
+        </div>
+
+        <div class="topic-card green">
+          <h3><span class="icon-badge"><svg class="topic-icon"><use href="#icon-guidance" /></svg></span>Orientar o Uso</h3>
+          <p>Aprender a utilizar a tecnologia de maneira crítica, ética e responsável.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Mensagem Principal -->
+  <section class="section" id="mensagem">
+    <div class="section-header">
+      <h2 class="section-title">Mensagem Principal</h2>
+    </div>
+    <div class="mensagem-box">
+      <p style="font-size:.85rem;letter-spacing:2px;text-transform:uppercase;opacity:.7;margin-bottom:.5rem">Da informação ao conhecimento</p>
+      <div class="equation">
+        <span>Informação</span> ≠ Conhecimento
+      </div>
+      <p>
+        Ter acesso à informação é apenas o começo. Para construir conhecimento, precisamos
+        <strong style="color:var(--accent)">analisar, comparar, questionar</strong> e compreender aquilo que encontramos.
+      </p>
+    </div>
+  </section>
+
+  <!-- 5. Exemplo Prático -->
+  <section class="section" id="exemplo">
+    <div class="section-header">
+      <h2 class="section-title">Exemplo Prático</h2>
+    </div>
+    <div class="card">
+      <div class="search-scene">
+        <div class="search-scene-top">
+          <div class="search-window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+          <span>SIMULAÇÃO DE PESQUISA</span>
+          <span class="search-live"><i></i> INVESTIGAÇÃO EM CURSO</span>
+        </div>
+
+        <p class="search-intro">Imagine um aluno diante de uma pergunta que não tem resposta simples:</p>
+
+        <div class="search-query">
+          <svg class="topic-icon search-query-icon" aria-hidden="true"><use href="#icon-research" /></svg>
+          <p class="search-query-text" aria-label="A inteligência artificial pode substituir o professor?">
+            A inteligência artificial pode substituir o professor?
+          </p>
+          <span class="query-question-mark" aria-hidden="true">?</span>
+        </div>
+
+        <div class="human-ai-visual" role="img" aria-label="Tecnologia e pensamento humano conectados">
+          <svg viewBox="0 0 360 104" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="concept-link" d="M91 52h178" />
+            <path class="concept-link concept-link-highlight" d="M91 52h178" />
+
+            <g class="concept-tech">
+              <circle cx="68" cy="52" r="31" fill="#10243B" stroke="#75BDE8" stroke-opacity=".48" />
+              <circle cx="68" cy="52" r="23" fill="none" stroke="#75BDE8" stroke-opacity=".24" />
+              <rect x="57" y="41" width="22" height="22" rx="5" fill="none" stroke="#9BD7F3" stroke-width="1.8" />
+              <path d="M63 47h10v10H63zM68 35v6m0 22v6m-18-17h7m22 0h7m-23-15-4-4m22 22-4-4m0-14 4-4m-22 22-4 4" stroke="#9BD7F3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+            </g>
+
+            <g class="concept-human">
+              <circle cx="292" cy="52" r="31" fill="#10243B" stroke="#FFC247" stroke-opacity=".5" />
+              <circle cx="292" cy="43" r="7" fill="none" stroke="#FFD477" stroke-width="1.8" />
+              <path d="M278 66c1.7-8 6.7-12 14-12s12.3 4 14 12" fill="none" stroke="#FFD477" stroke-linecap="round" stroke-width="1.8" />
+              <path d="M283 38c2-4 5-6 9-6" stroke="#FFF1C7" stroke-linecap="round" stroke-width="1.5" />
+            </g>
+
+            <circle class="concept-node" cx="180" cy="52" r="5" fill="#FFC247" />
+            <circle class="concept-node-halo" cx="180" cy="52" r="11" fill="none" stroke="#FFC247" stroke-opacity=".58" />
+            <circle class="concept-particle" r="3.5" fill="#FFF1C7">
+              <animateMotion dur="2.8s" repeatCount="indefinite" path="M91 52H269" />
+            </circle>
+            <circle class="concept-particle concept-particle-reverse" r="2.5" fill="#8FD8F3">
+              <animateMotion dur="3.4s" begin="-1.7s" repeatCount="indefinite" path="M269 52H91" />
+            </circle>
+          </svg>
+        </div>
+
+        <div class="reflection-prompt">
+          <span class="reflection-mark" aria-hidden="true">!</span>
+          <p><strong>A busca é só o começo.</strong> Que fontes merecem confiança? O que significa, de fato, “substituir”?</p>
+        </div>
+      </div>
+
+      <p class="analysis-intro">
+        Ele encontra vários vídeos e opiniões diferentes.
+        <strong>Veja como cada área entra em ação:</strong>
+      </p>
+
+      <div class="exemplo-flow">
+
+        <div class="flow-item">
+          <div class="flow-icon"><svg class="topic-icon"><use href="#icon-digital" /></svg></div>
+          <div>
+            <strong>Cultura Digital</strong>
+            <p>Permite que o aluno encontre essas informações.</p>
+          </div>
+        </div>
+
+        <div class="flow-item">
+          <div class="flow-icon"><svg class="topic-icon"><use href="#icon-education" /></svg></div>
+          <div>
+            <strong>Educação</strong>
+            <p>Utiliza a tecnologia como ferramenta de aprendizagem.</p>
+          </div>
+        </div>
+
+        <div class="flow-item">
+          <div class="flow-icon"><svg class="topic-icon"><use href="#icon-knowledge" /></svg></div>
+          <div>
+            <strong>Epistemologia</strong>
+            <p>Ajuda o aluno a questionar as informações, comparar fontes e construir sua própria compreensão.</p>
+          </div>
+        </div>
+
+        <div class="flow-item">
+          <div class="flow-icon"><svg class="topic-icon"><use href="#icon-teacher" /></svg></div>
+          <div>
+            <strong>Papel do Professor</strong>
+            <p>Entra como orientador, ajudando o aluno a desenvolver o pensamento crítico.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="highlight" style="margin-top:1.4rem">
+        A tecnologia é uma ferramenta poderosa — mas é o pensamento crítico,
+        mediado pelo professor, que transforma informação em conhecimento real.
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Finalização -->
+  <section class="section" id="finalizacao">
+    <div class="section-header">
+      <h2 class="section-title">Para concluir</h2>
+    </div>
+    <div class="card finalizacao-card">
+      <video class="finalizacao-video" controls preload="metadata">
+        <source src="Videos/Final.mp4" type="video/mp4" />
+        Seu navegador não conseguiu reproduzir este vídeo.
+      </video>
+    </div>
+  </section>
+
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <strong>Grupo Salve-nos Piaget</strong> &nbsp;·&nbsp; Cultura Digital, Educação e Epistemologia
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  function abrirModal() {
+    document.getElementById('modal').classList.add('ativo');
+    document.body.style.overflow = 'hidden';
+  }
+  function fecharModal() {
+    document.getElementById('modal').classList.remove('ativo');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') fecharModal();
+  });
+</script>
+</body>
+</html>
